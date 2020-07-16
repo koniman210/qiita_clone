@@ -176,6 +176,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-ast (0.1.0)
       parser (>= 2.7.0.1)
+    rubocop-performance (1.7.0)
+      rubocop (>= 0.82.0)
     rubocop-rails (2.6.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
@@ -250,6 +252,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rubocop-performance
   rubocop-rails
   rubocop-rspec
   sass-rails (~> 5.0)
