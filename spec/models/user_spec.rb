@@ -19,7 +19,7 @@ RSpec.describe User, type: :model do
   end
 
   context "name が長すぎる場合" do
-    let(:user) { build(:user, name: "a"*51) }
+    let(:user) { build(:user, name: "a" * 51) }
 
     it "エラーする" do
       user.valid?

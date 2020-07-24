@@ -1,4 +1,4 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Comment, type: :model do
   context "正常な場合" do
@@ -17,4 +17,4 @@ RSpec.describe Comment, type: :model do
       expect(comment.errors.messages[:body]).to include "can't be blank"
     end
   end
-end	
+end

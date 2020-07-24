@@ -1,4 +1,4 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe ArticleLike, type: :model do
   context "正常な場合" do
